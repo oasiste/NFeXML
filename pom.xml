@@ -3,16 +3,18 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>nfeconector</artifactId>
+		<groupId>br.com.usicamp.nfe</groupId>
+		<version>02.00.00-01</version>
+	</parent>
 	<artifactId>nfexml</artifactId>
-	<groupId>br.com.usicamp.nfe</groupId>
-	<version>02.00.00-11</version>
+	<version>02.00.00-09</version>
 	<name>nfexml</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	
-	
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -20,13 +22,11 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		
 		<dependency>
 			<groupId>br.com.usicamp.nfe</groupId>
 			<artifactId>core</artifactId>
-			<version>02.00.00-15</version>
+			<version>02.00.00-05</version>
 		</dependency>
-		
 		<dependency>
 			<groupId>br.com.usicamp.nfe</groupId>
 			<artifactId>retInutNFe</artifactId>
@@ -45,26 +45,26 @@
 			<version>1.0</version>
 		</dependency>
 
-		<dependency> 
+		<dependency>
 			<groupId>br.com.usicamp.nfe</groupId>
 			<artifactId>retCancNFe</artifactId>
 			<version>1.0</version>
 		</dependency>
 
 		<dependency>
-			<groupId>com.oas.nfe</groupId>
+			<groupId>br.com.usicamp.nfe</groupId>
 			<artifactId>cancNFe</artifactId>
-			<version>1</version>
+			<version>1.0</version>
 		</dependency>
 
 		<dependency>
-			<groupId>br.com.usicamp.nfe</groupId> 
+			<groupId>br.com.usicamp.nfe</groupId>
 			<artifactId>retConReciNFe</artifactId>
 			<version>1.0</version>
 		</dependency>
 
 		<dependency>
-			<groupId>com.oas.nfe</groupId>
+			<groupId>br.com.usicamp.nfe</groupId>
 			<artifactId>consReciNFe</artifactId>
 			<version>1.0</version>
 		</dependency>
